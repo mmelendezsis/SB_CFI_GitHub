@@ -1,0 +1,8 @@
+version: '2.1'
+
+services:
+  aspnet:
+    image: aspnet
+    build:
+      context: .\AspNet
+      dockerfile: Dockerfile

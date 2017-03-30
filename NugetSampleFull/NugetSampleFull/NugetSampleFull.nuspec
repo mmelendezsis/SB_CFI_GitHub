@@ -1,0 +1,30 @@
+﻿<?xml version="1.0"?>
+<package>
+  <metadata>
+    <!--*-->
+    <id>NugetSampleFull</id>
+    <!--*-->
+    <version>1.0.0.0</version>
+    <title></title>
+    <!--*-->
+    <authors>CFI Team</authors>
+    <owners>CFI</owners>
+<!--
+    <licenseUrl></licenseUrl>
+    <projectUrl></projectUrl>
+    <iconUrl></iconUrl>
+-->
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--*-->
+    <description>An example of a nuget full .NET package</description>
+    <!--*-->
+    <releaseNotes> </releaseNotes>
+    <copyright>2017 SIS</copyright>
+    <tags> </tags>
+    <dependencies>
+      <!--
+      <dependency id="SampleDependency" version="1.0" />
+-->
+    </dependencies>
+  </metadata>
+</package>

@@ -1,0 +1,12 @@
+version: '2.1'
+
+services:
+  aspnet:
+    image: __DockerRegistryTkn__/aspnet
+    build:
+      args:
+        source: ${DOCKER_BUILD_SOURCE}
+    volumes:
+      - ~\msvsmon:C:\msvsmon:ro
+    labels:
+      - "com.microsoft.visualstudio.targetoperatingsystem=windows"
